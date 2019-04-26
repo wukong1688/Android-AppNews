@@ -18,4 +18,4 @@
 
 <br/>
 <p>apk体验地址：</p>
-[apk 1.0](demo/apk/qrcode_v1.0.png)
+![apk 1.0](demo/apk/qrcode_v1.0.png)
