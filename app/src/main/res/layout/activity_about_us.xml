@@ -15,37 +15,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="60dp"
             android:gravity="top"
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/ll_clear"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:padding="10dp">
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="项目源码地址:(点击链接可直接访问)"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/project_address"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="我们是水"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <LinearLayout
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:gravity="right|center_vertical">
-
-                    <TextView
-                        android:id="@+id/tv_cache"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="14sp" />
-                </LinearLayout>
+                    android:text="https://github.com/wukong1688/Android-AppNews"
+                    android:textColor="@color/title_bar_color"
+                    android:textSize="18sp" />
             </LinearLayout>
 
             <View
@@ -55,8 +52,28 @@
                 android:layout_marginRight="10dp"
                 android:background="#11000000" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="欢迎 Star , 欢迎拍砖!~~"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#11000000" />
         </LinearLayout>
     </ScrollView>
 
