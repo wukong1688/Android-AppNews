@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppStartFullscreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TabStyle" parent="TextAppearance.Design.Tab">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabIndicatorHeight">0.5dp</item>
+        <item name="tabPaddingStart">1dp</item>
+        <item name="tabPaddingEnd">1dp</item>
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

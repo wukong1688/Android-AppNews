@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">头条新闻</string>
+    <string name="splash_text">CopyRight @2019</string>
+
+    <string name="main_tab_news">首页</string>
+    <string name="main_tab_video">视频</string>
+    <string name="main_tab_image">图片</string>
+    <string name="main_tab_mine">我的</string>
+
+    <string name="mine_clear_cache">清除缓存</string>
+    <string name="mine_about_us">关于我们</string>
+
+
+</resources>
