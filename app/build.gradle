@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.jack.appnews"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
