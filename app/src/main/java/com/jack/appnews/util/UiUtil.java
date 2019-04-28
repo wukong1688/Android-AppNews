@@ -3,11 +3,28 @@ package com.jack.appnews.util;
 import android.content.Context;
 
 /**
- * Created by anany on 16/1/22.
- * <p>
- * Email:zhujun2730@gmail.com
+ * UiUtil
  */
 public class UiUtil {
+    /**
+     * 屏幕宽度
+     *
+     * @param context
+     * @return
+     */
+    public static int getScreenWidth(Context context) {
+        return context.getResources().getDisplayMetrics().widthPixels;
+    }
+
+    /**
+     * 屏幕高度
+     *
+     * @param context
+     * @return
+     */
+    public static int getScreenHeight(Context context) {
+        return context.getResources().getDisplayMetrics().heightPixels;
+    }
 
     /**
      * dip转为 px
@@ -18,7 +35,7 @@ public class UiUtil {
     }
 
     /**
-     *  px 转为 dip
+     * px 转为 dip
      */
     public static int px2dip(Context context, float pxValue) {
         final float scale = context.getResources().getDisplayMetrics().density;

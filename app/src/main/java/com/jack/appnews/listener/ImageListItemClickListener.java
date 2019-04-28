@@ -22,8 +22,7 @@ public class ImageListItemClickListener implements ImageListRecycleAdapter.Click
     public void onItemClick(View v, int position, List<ItemImageBean> items) {
         Intent intent = new Intent(mContext, PhotoViewActivity.class);
         Bundle bundle = new Bundle();
-//        bundle.putSerializable("dataBean", items.get(position - 1));
-        bundle.putSerializable("dataBean", items.get(position));
+        bundle.putSerializable("dataBean", items.get(position - 1));
         intent.putExtras(bundle);
         intent.putExtra("curPos", 0);
 

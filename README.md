@@ -16,7 +16,12 @@
 <p>6）启动页 + 广告页</p>
 <p>7）新闻列表、视频列表、图片列表 列表数据  暂时均为本地加载</p>
 
+
 <p><strong>apk体验地址：</strong></p>
 
-![apk 1.0](demo/apk/qrcode_v1.0.png)
+<a href ="demo/apk/app-debug-v1.0.apk?raw=true">apk 1.0 点击下载</a>
+
+或者扫描下方二维码：
+
+![或者 apk 1.0 二维码](demo/apk/qrcode_v1.0.png)
 
